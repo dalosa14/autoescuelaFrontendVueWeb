@@ -1,0 +1,10 @@
+query getPermisos{
+  permisos{
+    id,
+    nombre,
+    descripcion,
+    portada{
+      url
+    }
+  }
+}
